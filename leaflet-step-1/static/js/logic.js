@@ -41,7 +41,7 @@ function magColor(mag) {
         case 2: return "yellow"; break;
         case 3: return "orange"; break;
         case 4: return "darkOrange"; break;
-        case 5: return "red"; break;
+        default: return "red";
     }
 }
 
